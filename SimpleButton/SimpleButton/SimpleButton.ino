@@ -1,6 +1,6 @@
-int buttonInterruptPin = 9;
-int whiteLedPin = 12;
-int greenLedPin = 11;
+const int buttonInterruptPin = 9;
+const int whiteLedPin = 12;
+const int greenLedPin = 11;
 
 void setup() {
   pinMode(buttonInterruptPin, INPUT);

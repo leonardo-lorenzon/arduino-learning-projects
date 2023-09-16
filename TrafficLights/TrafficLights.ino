@@ -1,9 +1,9 @@
-int car_red = 13;
-int car_yellow = 12;
-int car_green = 11;
+const int car_red = 13;
+const int car_yellow = 12;
+const int car_green = 11;
 
-int pedestrian_red = 9;
-int pedestrian_green = 10;
+const int pedestrian_red = 9;
+const int pedestrian_green = 10;
 
 void setup() {
   pinMode(car_green,OUTPUT);
